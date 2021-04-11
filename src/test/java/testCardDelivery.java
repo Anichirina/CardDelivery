@@ -15,9 +15,7 @@ public class testCardDelivery {
     LocalDate newDate = today.plusDays(3);
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
     String formatDateNew = newDate.format(formatter);
-    LocalDate NewWeek = today.plusDays(7);
-    String FormatWeek = NewWeek.format(formatter);
-    int dayPlusSeven = NewWeek.getDayOfMonth();
+
 
     @BeforeEach
     void setUp() {
